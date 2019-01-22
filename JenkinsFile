@@ -19,10 +19,11 @@ pipeline {
             stage('Deploy this to Prod') { 
             steps {
                  echo "Building now and deploy in Prod" 
+                 echo "Test for t"
             }
             }
             
-            echo "Test for t"
+            
         
     }
 }
