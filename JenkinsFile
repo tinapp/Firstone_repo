@@ -15,11 +15,12 @@ pipeline {
             steps {
                  echo "Building now in deploy" 
             }
+            }
             stage('Deploy this to Prod') { 
             steps {
                  echo "Building now and deploy in Prod" 
             }
-            
-        }
+            }
+        
     }
 }
