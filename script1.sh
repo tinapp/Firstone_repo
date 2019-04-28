@@ -7,3 +7,5 @@ pwd
 echo hi
 echo you
 echo jump
+echo one
+
