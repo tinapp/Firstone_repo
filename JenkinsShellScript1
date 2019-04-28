@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-            step([$class: 'WsCleanup']) 
+            //step([$class: 'WsCleanup']) 
                 echo "Hello World!"
         
                 sh """
