@@ -6,3 +6,4 @@ uptime
 pwd
 echo hi
 echo you
+echo jump
