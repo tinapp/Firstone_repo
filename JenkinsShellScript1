@@ -9,6 +9,7 @@ pipeline {
                     echo Hello from the shell
                     hostname
                     uptime
+                    pwd
                 """
                 sh "ls -l"
                 
