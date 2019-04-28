@@ -7,11 +7,15 @@ pipeline {
         
                 sh """
                     echo Hello from the shell
-                    hostname
-                    uptime
-                    pwd
+                   # hostname
+                   #uptime
+                   #pwd
                 """
-                sh "ls -l"
+                sh '''
+                    chmod +x script1.sh
+                    ./script1.sh
+                
+                '''
                 
             }
         }
