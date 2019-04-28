@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
+            step([$class: 'WsCleanup']) 
                 echo "Hello World!"
         
                 sh """
@@ -12,7 +13,7 @@ pipeline {
                    #pwd
                 """
                 sh '''
-                    chmod +x script1.sh
+                   # chmod +x script1.sh
                     ./script1.sh
                 
                 '''
