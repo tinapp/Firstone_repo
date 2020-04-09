@@ -7,5 +7,6 @@ pwd
 echo hi
 echo you
 echo jump
-echo one
+echo onto new one
+echo my script 
 
